@@ -1,785 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.4.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'en'
-  };
-</script>
-
-  <title>Hexo</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="google-site-verification" content="TZE0rZyIqLl10trYu3BWBWa1Vmz6HFwhb2OcNEK4u-s" />
+     <link rel="shortcut icon" href= /img/favicon.ico >
+    <title>
+        Hexo
+    </title>
+    <meta name="description" content= 快找个位子随便坐 >
+    <meta name="keywords" content= Blog,Hexo,Theme >
+    
+<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body id="bodyx">
+    <div class="hd logodiv">
+    <img src="/img/male.png" class="logopng" alt="logo">
+    <p class="logot">
+         技术博客 
+         <span class="logo_2"></span>
+        <h3 class="words" style="font-weight: bold;font-family: Georgia;"> 
+            因为梦想，永远年轻 
+        </h3>
+    </p>
+</div>
 
 
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
+<div class="hd">
+    <ol class="breadcrumb">
+        
+            <li><a class="ba" href="/about">关于我👀</a></li>
+        
+            <li><a class="ba" target="_blank" rel="noopener" href="https://liuxunzhuo.tech">访问主站🎉</a></li>
+        
+            <li><a class="ba" target="_blank" rel="noopener" href="https://github.com/xunzhuo">GitHub🐒</a></li>
+        
 
-          <div class="content index posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/19/back/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/10/19/back/" class="post-title-link" itemprop="url">back</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-10-19 21:54:51" itemprop="dateCreated datePublished" datetime="2021-10-19T21:54:51+08:00">2021-10-19</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/19/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/10/19/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-10-19 20:46:37" itemprop="dateCreated datePublished" datetime="2021-10-19T20:46:37+08:00">2021-10-19</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/17/2021%E5%B9%B44%E6%9C%88%E6%80%BB%E7%BB%93/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/10/17/2021%E5%B9%B44%E6%9C%88%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">2021年4月总结</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-10-17 21:54:51" itemprop="dateCreated datePublished" datetime="2021-10-17T21:54:51+08:00">2021-10-17</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-10-19 21:57:41" itemprop="dateModified" datetime="2021-10-19T21:57:41+08:00">2021-10-19</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><h4 id="待补充-netty框架问题"><a href="#待补充-netty框架问题" class="headerlink" title="(待补充)netty框架问题"></a>(待补充)netty框架问题</h4><p>时间：2021-04-01</p>
-<p>背景：netty框架</p>
-<p>出现：服务器出现如下报错：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">10</span>:08:<span class="number">06.422</span> [nioEventLoopGroup-<span class="number">5</span>-<span class="number">6</span>] ERROR i.m.h.s.netty.|- Unexpected error occurred: io.netty.util.IllegalReferenceCountException: refCnt: <span class="number">0</span>, decrement: <span class="number">1</span></span><br><span class="line"></span><br><span class="line">IllegalReferenceCountException</span><br></pre></td></tr></table></figure>
-
-<p><a target="_blank" rel="noopener" href="https://emacsist.github.io/2018/04/28/netty%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84illegalreferencecountexception%E5%BC%82%E5%B8%B8%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3/">Netty中常见的IllegalReferenceCountException异常原因及解决</a></p>
-<p>原因：</p>
-<hr>
-<h4 id="慢sql问题"><a href="#慢sql问题" class="headerlink" title="慢sql问题"></a>慢sql问题</h4><p>时间：2021-04-01</p>
-<p>背景：心理专区服务</p>
-<p>出现：数据库出现很多慢SQL</p>
-<p>原因：心理专区每个表单都要获取一次答题人数，而且没有落缓存，导致频繁查询下面那个语句。而且也没有索引导致的</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span></span><br><span class="line">  <span class="built_in">count</span>(<span class="operator">*</span>)</span><br><span class="line"><span class="keyword">from</span></span><br><span class="line">  `t_form_result` form_result_dto_</span><br><span class="line"><span class="keyword">where</span></span><br><span class="line">  form_result_dto_.`form_number` <span class="operator">=</span> ?</span><br><span class="line">  <span class="keyword">and</span> deleted <span class="operator">=</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<h4 id="连接数多的问题"><a href="#连接数多的问题" class="headerlink" title="连接数多的问题"></a>连接数多的问题</h4><p>时间：2021-04-01</p>
-<p>背景：领导说要优化一下</p>
-<p>出现：大量活动线程,在数据库db_activity。看到主机的HOST，发现应该是年报活动。</p>
-<p><img src="https://i.loli.net/2021/04/01/y2rWfwA6VgUITRZ.png" alt="image-20210401115525972"></p>
-<p>研究过程：</p>
-<p>通过查看processlist发现：</p>
-<p><img src="https://i.loli.net/2021/04/01/rsYxyQLUhHtBd3R.png" alt="image-20210401174859934"></p>
-<p>db_activity连接数确实比较多。而且都是sleep状态的。</p>
-<p>原因：application配置文件每配置一个数据库连接，就默认会启动10个链接保持睡眠的状态，年报活动里面有很多数据库的配置，所以造成连接数多的情况。下图多配置了一个地址，发现连接数又加了10</p>
-<p><img src="https://i.loli.net/2021/04/01/CdFnHSROkBhy3vJ.png" alt="image-20210401175227701"></p>
-<hr>
-<h4 id="Charles抓包问题"><a href="#Charles抓包问题" class="headerlink" title="Charles抓包问题"></a>Charles抓包问题</h4><p>时间：0402</p>
-<p>背景：想学习使用charles抓包</p>
-<p>出现：发现总是抓不到包，不管怎么安装证书和修改配置Charles就是抓不到</p>
-<p>原因：一开始是因为chrome开了翻墙，所以抓不到。后来使用postman也抓不到那是因为postman开了SSL的验证。而Charles使用的证书是不被信任的，所以也抓不到</p>
-<hr>
-<h4 id="微信短连接问题"><a href="#微信短连接问题" class="headerlink" title="微信短连接问题"></a>微信短连接问题</h4><p>时间：0402</p>
-<p>背景：扫描二维码并没有获取到二维码中的参数</p>
-<p>出现：以前也出现过一次问题，二维码所带的参数超过了微信限制的长度导致的。使用的是微信自带的短连接处理功能解决的。现在又出现了这个问题。</p>
-<p>原因：现在微信自带的短连接处理功能的接口已经不能用了，传给他的长连接会原封不动的穿回来，从日志我们可以看出scene_str原本的链接，并没有压缩成短连接</p>
-<hr>
-<h4 id="旧代码如何加密"><a href="#旧代码如何加密" class="headerlink" title="旧代码如何加密"></a>旧代码如何加密</h4><p>时间：0413</p>
-<p>背景：三级等保整改</p>
-<p>出现：需要就现有的问题进行修改</p>
-<ol>
-<li>系统使用加密算法（RSA、3DES等）对重要数据在存储过程中采取保密性保护措施。<em>x000D</em>_</li>
-<li>在存储过程中需要加密保护的数据类型包括（不限于）鉴别数据、配置数据、重要业务数据、重要个人信息数据。<em>x000D</em></li>
-</ol>
-<p>意思是存在数据库中需要加密数据，取出来之后是解密的数据。这就很麻烦了。但是也不是不行，确实所有DAO，应该要有对应DAOService，就是为了应对这种情况出现的。如果所有的数据需要加密，就直接在DAOService里面进行操作就好了。但是现在用的地方直接引用的是DAO，而不是DAOService，所以改起来就很麻烦，相当于加一层DAOservice</p>
-<p>我按照如下步骤进行：</p>
-<ol>
-<li><p>所有UserRepository,操作全部放在userService里面。</p>
-</li>
-<li><p>把所有的sql语句单独再提出来</p>
-</li>
-<li><p>优化代码</p>
-<p>把可以复用的逻辑都拿出来，抽象出接口</p>
-<p><img src="https://i.loli.net/2021/04/13/QuJ5Dw3XAoO1KxW.png" alt="image-20210413170548697"></p>
-</li>
-</ol>
-<ol start="4">
-<li><p>保留原来的逻辑，对新的逻辑加密</p>
-<p><img src="https://i.loli.net/2021/04/13/NFRyawfXHCJIGZm.png" alt="image-20210413172632347"></p>
-</li>
-</ol>
-<ol start="5">
-<li><p>逐个击破</p>
-<p><img src="https://i.loli.net/2021/04/13/aRPJmtDFyiH3WBA.png" alt="image-20210413175913583"></p>
-</li>
-</ol>
-<p>原来的没有加密的和加密的都实现公共的DAOService接口，然后用的时候直接修改对应的DAOServiceImpl就好了。这也是一种封装的思想。</p>
-<hr>
-<h4 id="xml中的转义字符问题"><a href="#xml中的转义字符问题" class="headerlink" title="xml中的转义字符问题"></a>xml中的转义字符问题</h4><p>时间：0414</p>
-<p>出现：发现beam.xml配置文件里面mysql配置的url会报错</p>
-<p>原因：bean.xml里面配置MYSQL在拼接时区的字符&amp;需要转义字符”&amp;amp”代替</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jdbc-url: jdbc:mysql://.../yaeherdoctordb_v2?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=Asia/Shanghai</span><br></pre></td></tr></table></figure>
-
-<p>解决：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">改成：</span><br><span class="line">jdbc-url: jdbc:mysql://.../yaeherdoctordb_v2?useUnicode=true&amp;ampcharacterEncoding=utf8&amp;ampserverTimezone=Asia/Shanghai</span><br></pre></td></tr></table></figure>
-
-<p>常用的转义字符：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">把“&amp;” 编码为 “&amp;amp;”</span><br><span class="line"> </span><br><span class="line">把“&lt;” 编码为“&amp;lt;”</span><br><span class="line"> </span><br><span class="line">把“&gt;” 编码为 “&amp;gt;”</span><br><span class="line"> </span><br><span class="line">把“&#x27;” 编码为 “&amp;apos;”</span><br><span class="line"> </span><br><span class="line">把“&quot;” 编码为 “&amp;quot;”</span><br></pre></td></tr></table></figure>
-
-
-
-
-<hr>
-<h4 id="RSA加密数据不一致问题"><a href="#RSA加密数据不一致问题" class="headerlink" title="RSA加密数据不一致问题"></a>RSA加密数据不一致问题</h4><p>时间：0415</p>
-<p>背景：等保加密问题</p>
-<p>出现：RSA加密用户密码，然后存入数据库中。但是当用户想账号密码登陆时，发现密码和数据库中的不一致。</p>
-<p><img src="https://i.loli.net/2021/04/15/TGxKQPoVZD6IEpz.png" alt="image-20210415141334670"></p>
-<p>原因：RSA每次加密的密文都是不一样的。虽然用的是同一对公私钥对。每次公钥加密的密文确实不同的。这里还是RSA加密的原理没有弄懂。（现在10月了看过也忘记了）</p>
-<p>为什么密文不一样，就算知道了原理还是需要实践，在学习部分补充</p>
-<p>补充二：<strong>字段加密后如何实现模糊查询?</strong></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u012516914/article/details/114422156">https://blog.csdn.net/u012516914/article/details/114422156</a></p>
-<p>这是实际可能需要用到的。不过用到时候再仔细了解吧。我们问题的解决办法是使用AES代替RSA了</p>
-<ul>
-<li>数据库实现程序一致的加解密算法，在数据库查找时使用算法解密后再进行模糊查询，但是这种情况一般用不了索引</li>
-<li>分词法，对密文数据进行分词组合，将分词组合的结果集分别进行加密，然后存储到扩展列，查询时通过key like ‘%partial%’，这是一个比较划算的实现方法。</li>
-</ul>
-<hr>
-<h4 id="Redis-incr-方法过期时间问题"><a href="#Redis-incr-方法过期时间问题" class="headerlink" title="Redis incr 方法过期时间问题"></a>Redis incr 方法过期时间问题</h4><p>时间：0425</p>
-<p>背景：在一段时间内限制访问次数，想使用Redis incr 设置有效时间问题</p>
-<p>出现：redis并没有给出一个方法类似于</p>
-<blockquote>
-<p>String setex(K key, long seconds, V value);</p>
-</blockquote>
-<p>对于incr方法设置有效时间的问题。</p>
-<p>解决：在incre = 1时候，设置过期时间，参考：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/31a42f8f834a">Redis 利用 incr 和 expire 来限流, 并发导致过期时间失效问题</a></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">incrByExpire</span><span class="params">(String key, Long second)</span> </span>&#123;</span><br><span class="line">    RedisCommands&lt;String, String&gt; command = getCommand();</span><br><span class="line">    Long incr = command.incr(key);</span><br><span class="line">    <span class="keyword">if</span> (incr == <span class="number">1</span>) &#123;</span><br><span class="line">        command.expire(key,second);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这里是分开调用。所以是否有可能出现多线程的问题？</p>
-<hr>
-<h4 id="Idea-debug看不到源码问题"><a href="#Idea-debug看不到源码问题" class="headerlink" title="Idea debug看不到源码问题"></a>Idea debug看不到源码问题</h4><p>时间：0428</p>
-<p>背景：debug代码发现看不到源码</p>
-<p>出现：jdk不要选idea自带的。debug进源码看不到</p>
-<p><img src="https://i.loli.net/2021/04/28/dEug91MmPoeHOBL.png" alt="image-20210428165733350"></p>
-<h4 id="定时任务逻辑问题"><a href="#定时任务逻辑问题" class="headerlink" title="定时任务逻辑问题"></a>定时任务逻辑问题</h4><p>时间：0429</p>
-<p>业务场景：有一个定时任务提醒用户可以下单的任务。用户收到可以下单提醒，但是用户进入页面发现，实际上已经满单不能下单了。</p>
-<p>原因：在定时任务还没有走完时，医生就已经被下满单了，而提醒却滞后了。导致最后收到消息就已经满单了。</p>
-<p>解决：优化定时任务逻辑，定时任务最好保证速度要快。</p>
-<h4 id="Trancational-导致读取失败问题"><a href="#Trancational-导致读取失败问题" class="headerlink" title="@Trancational 导致读取失败问题"></a>@Trancational 导致读取失败问题</h4><p>时间：0429</p>
-<p>问题：只读库没有读取到读写库的数据，因为在方法上使用了@Trancational，所以在save一个数据的时候。并没有返回那个DO是带有id或者其他的字段。也就是说数据还没有存到数据库里面。所以这个时候的只读库的链接就不可能找到数据。</p>
-<p>解决：一个@Trancational里面就只进行一个操作。不要把读写都放在一起</p>
-<hr>
-<h4 id="异常：IllegalMonitorStateException"><a href="#异常：IllegalMonitorStateException" class="headerlink" title="异常：IllegalMonitorStateException"></a>异常：IllegalMonitorStateException</h4><p>时间：04</p>
-<p>背景：在使用线程间通讯的时候出现的问题</p>
-<p>出现：现在这个例子报错：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IllegalMonitorStateExceptionTest</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;要执行跑了&quot;</span>);</span><br><span class="line">        notify();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        IllegalMonitorStateExceptionTest s = <span class="keyword">new</span> IllegalMonitorStateExceptionTest();</span><br><span class="line">        System.out.println(<span class="string">&quot;开始执行了!&quot;</span>);</span><br><span class="line">        s.start();</span><br><span class="line">        System.out.println(<span class="string">&quot;要等待了!&quot;</span>);</span><br><span class="line">        s.wait();</span><br><span class="line">        System.out.println(<span class="string">&quot;结束了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>调用wait()并没有获得对象的monitor</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Thrown to indicate that a thread has attempted to wait on an</span></span><br><span class="line"><span class="comment"> * object&#x27;s monitor or to notify other threads waiting on an object&#x27;s</span></span><br><span class="line"><span class="comment"> * monitor without owning the specified monitor.</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>  unascribed</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@see</span>     java.lang.Object#notify()</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@see</span>     java.lang.Object#notifyAll()</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@see</span>     java.lang.Object#wait()</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@see</span>     java.lang.Object#wait(long)</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@see</span>     java.lang.Object#wait(long, int)</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@since</span>   JDK1.0</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IllegalMonitorStateException</span> <span class="keyword">extends</span> <span class="title">RuntimeException</span></span></span><br></pre></td></tr></table></figure>
-
-<p>违法的监控状态异常。当某个线程试图等待一个自己并不拥有的对象（O）的监控器或者通知其他线程等待该对象（O）的监控器时，抛出该异常。</p>
-<p>看起来有些晦涩难懂，比如object’s monitor。其实，在Object.notify()这个函数的JavaDoc中有相关的解释：</p>
-<p>A thread becomes the owner of the object’s monitor in one of three ways:</p>
-<ol>
-<li>By executing a synchronized instance method of that object.</li>
-<li>By executing the body of a synchronized statement that synchronizes on the object.</li>
-<li>For objects of type Class, by executing a synchronized static method of that class.</li>
-</ol>
-<p>说白了，就是需要在调用wait()或者notify()之前，必须使用synchronized语义绑定住被wait/notify的对象。再换句话说：调用wait,notify需要在同步的环境下，也就是必须要<strong>上锁环境</strong>调用。</p>
-<p><u>所以在使用synchronized时候就发现字节码文件里面有：monitorenter 和 monitorexit两个语句</u></p>
-<p>写了一个正常跑的例子，简单实现notify wait功能</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IllegalMonitorStateExceptionTest2</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">volatile</span> <span class="keyword">static</span> Integer noteNum = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        String threadName = Thread.currentThread().getName();</span><br><span class="line">        System.out.println(<span class="string">&quot;要执行跑了, thread = &quot;</span> + threadName);</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            getNote();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        addNote();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title">addNote</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        String threadName = Thread.currentThread().getName();</span><br><span class="line">        noteNum++;</span><br><span class="line">        System.out.println(<span class="string">&quot;noteNum 加了1, thread = &quot;</span> + threadName);</span><br><span class="line">        <span class="keyword">this</span>.notifyAll();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title">getNote</span><span class="params">()</span> <span class="keyword">throws</span> InterruptedException </span>&#123;</span><br><span class="line">        String threadName = Thread.currentThread().getName();</span><br><span class="line">        <span class="keyword">while</span> (noteNum == <span class="number">0</span>) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;我停住了, thread = &quot;</span> + threadName);</span><br><span class="line">            <span class="keyword">this</span>.wait();</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;我开始了, thread = &quot;</span> + threadName);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        IllegalMonitorStateExceptionTest2 s1 = <span class="keyword">new</span> IllegalMonitorStateExceptionTest2();</span><br><span class="line">        IllegalMonitorStateExceptionTest2 s2 = <span class="keyword">new</span> IllegalMonitorStateExceptionTest2();</span><br><span class="line">        IllegalMonitorStateExceptionTest2 s3 = <span class="keyword">new</span> IllegalMonitorStateExceptionTest2();</span><br><span class="line">        s1.start();</span><br><span class="line">        s2.start();</span><br><span class="line">        <span class="comment">// 唤醒其他线程</span></span><br><span class="line">        s3.addNote();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<hr>
-<h4 id="（待补充）类型强转问题"><a href="#（待补充）类型强转问题" class="headerlink" title="（待补充）类型强转问题"></a>（待补充）类型强转问题</h4><p>背景：在使用反射的时候，总有一个问题困扰，就是什么时候可以强转一个类。</p>
-<p>出现：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Class&lt;ReflectUser&gt; aClass = (Class&lt;ReflectUser&gt;) Class.forName(&quot;mytest.jdk.reflect.ReflectUser&quot;);</span><br></pre></td></tr></table></figure>
-
-<p>原本是这样的</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Class&lt;?&gt; aClass = Class.forName(&quot;mytest.jdk.reflect.ReflectUser&quot;);</span><br></pre></td></tr></table></figure>
-
-<p>什么情况可以强转什么情况不可以？</p>
-<p>之前有考虑过这个问题，结论是：<strong>本身就是这个对象就可以强转</strong>。</p>
-<p>阅读java原生oracle文档<a target="_blank" rel="noopener" href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html#jls-5.5.3%EF%BC%8CJDK8">https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html#jls-5.5.3，JDK8</a>  5.5. Casting Contexts</p>
-<hr>
-<p>时间：</p>
-<p>背景：</p>
-<p>出现：</p>
-<h3 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h3><hr>
-<p>反思的目的</p>
-<h4 id="积极工作"><a href="#积极工作" class="headerlink" title="积极工作"></a>积极工作</h4><p>时间：0412</p>
-<p>背景：需要思考把事情做好，而不是得过且过</p>
-<p>出现：把事情都做到最好，对自己有好处。而不是消极怠工，金子总会发光的。你只要换位思考一下，领导怎么想，天天在下面好吃懒做。啥也不干就知道摸鱼。早就对你有非常大的意见了。所以不管怎么样一样要好好工作。只有晚上好好睡觉白天才能好好的工作。</p>
-<hr>
-<h4 id="学习问题-思考为什么学不进"><a href="#学习问题-思考为什么学不进" class="headerlink" title="学习问题-思考为什么学不进"></a>学习问题-思考为什么学不进</h4><p>背景：学习并发编程相关的知识<br>出现：看到一半总是困，而且什么都记不起来<br>思考：<br>        自学看书总是这样，没有完全弄懂就开始往下看，然后越看越看不懂了。并不会说先全部走一遍，看打到后面就都能懂了，而实际的情况是走到后面更看不懂了，也许是我理解能力也还需要提高。（其实就是《Java并发编程艺术》的内容）能全部走一遍的那些书，要么是非常容易理解的书，要么就算是议论文，不可能是技术类的书。技术类不看前面，根本看不懂后面说什么。</p>
-<p>​        我总是擅闯有人教的，最好是现场教学。能更好的临摹，模仿。也许是现场更方便讨论，更容易提出问题。因为不管见面聊天别人说什么我都能记住，哪怕是细枝末节的事情。</p>
-<p>​        所以是否可以考虑，看书就像和朋友一起聊天呢？</p>
-<hr>
-<h4 id="对待问题的态度"><a href="#对待问题的态度" class="headerlink" title="对待问题的态度"></a>对待问题的态度</h4><p>背景：大部分问题都是出现在不懂的方面，</p>
-<p>想法：不只是针对问题的解决方法，针对的应该是问题的深层的原因和原理、理论和实践，对待一个问题的会抱着什么样的态度去做，我认为主要以下几个部分：</p>
-<ul>
-<li><p>了解：想知道是什么，以后用到再去彻底了解</p>
-</li>
-<li><p>学习：主要原理，知道是什么 </p>
-</li>
-<li><p>问题：主要解决与实践</p>
-<ul>
-<li>三要素：背景，出现，原因（这也是我现在做过的）</li>
-</ul>
-</li>
-<li><p>预研：既不知道是什么，也不会用，也不知道原理</p>
-</li>
-</ul>
-<hr>
-<h4 id="今日事今日毕"><a href="#今日事今日毕" class="headerlink" title="今日事今日毕"></a>今日事今日毕</h4><p>结论：在走之前，一定要把事情处理完再走。一定要看安排<br>出现：经常出现事情做到一半就跑掉的情况。第二天来原来有新的计划想做一些事情，发现昨天事情没有做完，又忘记了。所以今天的安排就需要整改了<br>解决：需要明确今天的事情都做完了再结束今天</p>
-<h3 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h3><hr>
-<p>相对于问题，学习的内容更丰富一点</p>
-<h4 id="服务稳定性"><a href="#服务稳定性" class="headerlink" title="服务稳定性"></a>服务稳定性</h4><p>时间：0407</p>
-<p>目的：学习如何使得系统更稳定，虽然只是在PHP服务器上说的，但是还是对Java服务有很大的积极的借鉴的意义。不像其他介绍的文章，只讲概括。这个稍微详细了讲了两个方面是怎么优化的</p>
-<p>出处：<a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/699892">阿里云栖开发者沙龙PHP技术专场-聊聊服务稳定性保障这些事</a></p>
-<p>内容：</p>
-<p>​    <strong>简介：</strong> 摘要：本文主要带大家了解服务稳定性的重要性和相关策略。策略大概分两部分，第一方面从架构层面介绍保障服务稳定性的常见策略（限流，降级，隔离，超时，重试和集群）。第二个方面是从流程方面（code review, 压测，灰度和监控）讲解怎么去保证稳定性。</p>
-<p>对于小公司而言，因为流量并没有很大。所以很大程度上是保证自己服务的稳定性，所以流程方面我觉得是比较重要的部分：</p>
-<pre><code>1. code view
-2. 压测
-3. 灰度
-4. 监控
-</code></pre>
-<h4 id="收集数据"><a href="#收集数据" class="headerlink" title="收集数据"></a>收集数据</h4><p>时间：0409</p>
-<p>目的：想要收集实际线上的流量有多少。和压测的数据可以比较一下。看到网上有如下的建议，有时间可以试试，集成一下这些东西</p>
-<p>具体内容如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">收集数据一般分两种 push &amp; pull</span><br><span class="line"></span><br><span class="line">push 在代码里打点，通过 statsd 一类的协议，把数据点主动发送到收集数据的 agent, eg: datadog, graphite.</span><br><span class="line"></span><br><span class="line">pull 也是在代码里打点, 程序暴露一个 http endpoint, 比如 /metrics, 然后监控系统主动轮循这个地址, 把数据拉下来记录, eg: prometheus</span><br><span class="line"></span><br><span class="line">程序里打点的用到的 sdk 会用到的数据类型一般会分成 Counter, Gauge, Histogram 等，建议你写个最简单的程序集成下 prometheus 的 sdk, 然后用本地跑个 prometheus 实现下统计 qps 就有感觉了.</span><br><span class="line"></span><br><span class="line">直接统计 access.log 这种也会有, 一般是一些现成的程序不好改代码埋点, prometheus 里把这类辅助导出 metrics 的程序叫 exporter, 比如: https://github.com/fstab/grok_exporter</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="Mysql-case-when的使用"><a href="#Mysql-case-when的使用" class="headerlink" title="Mysql case when的使用"></a>Mysql case when的使用</h4><p>出现：需要把每个医生的每种服务分出来：</p>
-<p><img src="https://i.loli.net/2021/04/14/Y2WQauH7iXBgDlb.png" alt="image-20210414163932139"></p>
-<p>但是数据库里面并没有这样统计过数据。所以考虑使用sum + case when来解决。</p>
-<p>case…when的两种用法:</p>
-<p>一种是类似上面例子中那样的简单CASE函数：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CASE</span> <span class="keyword">result</span></span><br><span class="line">    <span class="keyword">WHEN</span> <span class="string">&#x27;胜&#x27;</span> <span class="keyword">THEN</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">WHEN</span> <span class="string">&#x27;负&#x27;</span> <span class="keyword">THEN</span> <span class="number">2</span></span><br><span class="line"><span class="keyword">ELSE</span> <span class="number">0</span></span><br><span class="line"><span class="keyword">END</span></span><br></pre></td></tr></table></figure>
-
-<p>还有一种是CASE搜索函数：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CASE</span> <span class="keyword">WHEN</span> <span class="keyword">result</span><span class="operator">=</span><span class="string">&#x27;胜&#x27;</span> <span class="keyword">THEN</span> <span class="number">1</span></span><br><span class="line">     <span class="keyword">WHEN</span> <span class="keyword">result</span><span class="operator">=</span><span class="string">&#x27;负&#x27;</span> <span class="keyword">THEN</span> <span class="number">2</span></span><br><span class="line"><span class="keyword">ELSE</span> <span class="number">0</span></span><br><span class="line"><span class="keyword">END</span></span><br></pre></td></tr></table></figure>
-
-<p>可以看出这两种用法的区别在于：第二种case when可以设置多个case条件。第一种只能设置一个条件。</p>
-<p>最后就搞定了：</p>
-<p><img src="https://i.loli.net/2021/04/14/VMZYHCzPqaWuBs7.png" alt="image-20210414165740057"></p>
-<p>突发奇想一个问题：case…when是否会用到索引的问题</p>
-<blockquote>
-<p>如果在where里面使用肯定就会失效。但是在数据列中使用估计不会</p>
-</blockquote>
-<h4 id="开发流程"><a href="#开发流程" class="headerlink" title="开发流程"></a>开发流程</h4><p>背景：总感觉以前的开发流程很混乱，都是开会说个需求，然后就开始做了。做到一半发现有问题又重新开会然后回来修改，这就反反复复很多问题。</p>
-<p>目的：形成一个开发的思路</p>
-<ol>
-<li><p>需求分析</p>
-<p>使用xmind画出需求的分析，具体考虑两点：</p>
-<ol>
-<li>做什么和怎么做</li>
-<li>难点是什么</li>
-</ol>
-<p><img src="https://i.loli.net/2021/05/25/9xqh7c21RPTgSDw.png" alt="image-20210525172520358"></p>
-</li>
-<li><p>设计</p>
-<p>设计数据库和接口（相对于Java后端）</p>
-<ol>
-<li><img src="https://i.loli.net/2021/05/25/LiqHpRmBfxzAEoD.png" alt="image-20210525172939657"></li>
-<li>设计这部分一定要体现出程序怎么开发，不能还是列举需求，要说明要建立什么程序文件、要建立什么类，以及类有哪些方法， 方法的具体处理过程，在xmind中经常会用这些短句： “当XXX条件时做XXX”，“调用XXX方法”。</li>
-</ol>
-</li>
-<li><p>开发  </p>
-<p>防卫式编程，避免隐藏的bug</p>
-<p>程序的性能判断，用户量少时是怎么样，多时是怎么样的</p>
-<p>（各种优化）</p>
-</li>
-<li><p>测试 </p>
-</li>
-</ol>
-<p>原文：<a target="_blank" rel="noopener" href="https://www.kancloud.cn/luofei614/programmer_talk_life/107502">开发流程</a></p>
-<p>原文里面还有很多其他的内容，有借鉴意义，可以整理学习（待补充）</p>
-<h4 id="Java-Debug的原理简单介绍"><a href="#Java-Debug的原理简单介绍" class="headerlink" title="Java Debug的原理简单介绍"></a>Java Debug的原理简单介绍</h4><p>时间：4月</p>
-<p>背景：在一次使用idea的时候，突然就很好奇：到底程序是怎么debug的。感觉很神奇，debug居然可以让程序停下来</p>
-<p>出现：</p>
-<p>在 Debug 领域，JDK 有一套规范与体系来支持，即 <code>Java Platform Debugger Architecture</code>，<strong>JPDA</strong> 体系。在 JPDA 体系中定义了 三个角色：</p>
-<ul>
-<li>Debuggge。被调试者。JVMTI（Java Virtual Machine Tool Interface）</li>
-</ul>
-<blockquote>
-<p>JVMTI（Java Virtual Machine Tool Interface）即指 Java 虚拟机工具接口，它是一套由<strong>虚拟机直接提供的 native 接口</strong>，它处于整个 JPDA 体系的最底层，所有调试功能本质上都需要通过 JVMTI 来提供。通过这些接口，开发人员不仅调试在该虚拟机上运行的 Java 程序，还能查看它们运行的状态，设置回调函数，控制某些环境变量，从而优化程序性能。我们知道，JVMTI 的前身是 JVMDI 和 JVMPI，它们原来分别被用于提供调试 Java 程序以及 Java 程序调节性能的功能。在 J2SE 5.0 之后 JDK 取代了 JVMDI 和 JVMPI 这两套接口，JVMDI 在最新的 Java SE 6 中已经不提供支持，而 JVMPI 也计划在 Java SE 7 后被彻底取代。</p>
-</blockquote>
-<ul>
-<li>JDWP（Java Debug Wire Protocol）传输纽带。</li>
-</ul>
-<blockquote>
-<p>JDWP（Java Debug Wire Protocol）是一个为 Java 调试而设计的<strong>一个通讯交互协议</strong>，它定义了调试器和被调试程序之间传递的信息的格式。在 JPDA 体系中，作为前端（front-end）的调试者（debugger）进程和后端（back-end）的被调试程序（debuggee）进程之间的交互数据的格式就是由 JDWP 来描述的，它详细完整地定义了请求命令、回应数据和错误代码，保证了前端和后端的 JVMTI 和 JDI 的通信通畅。比如在 Sun 公司提供的实现中，它提供了一个名为 jdwp.dll（jdwp.so）的动态链接库文件，这个动态库文件实现了一个 Agent，它会负责解析前端发出的请求或者命令，并将其转化为 JVMTI 调用，然后将 JVMTI 函数的返回值封装成 JDWP 数据发还给后端。 另外，这里需要注意的是 JDWP 本身并不包括传输层的实现，传输层需要独立实现，但是 JDWP 包括了和传输层交互的严格的定义，就是说，JDWP 协议虽然不规定我们是通过 EMS 还是快递运送货物的，但是它规定了我们传送的货物的摆放的方式。在 Sun 公司提供的 JDK 中，在传输层上，它提供了 socket 方式，以及在 Windows 上的 shared memory 方式。当然，传输层本身无非就是本机内进程间通信方式和远端通信方式，用户有兴趣也可以按 JDWP 的标准自己实现。</p>
-</blockquote>
-<ul>
-<li>Debugger。调试者，JDI（Java Debug Interface）</li>
-</ul>
-<blockquote>
-<p>JDI（Java Debug Interface）是三个模块中最高层的接口，在多数的 JDK 中，它是由 Java 语言实现的。 JDI 由针对前端定义的接口组成，通过它，调试工具开发人员就能通过前端虚拟机上的调试器来远程操控后端虚拟机上被调试程序的运行，JDI 不仅能帮助开发人员格式化 JDWP 数据，而且还能为 JDWP 数据传输提供队列、缓存等优化服务。从理论上说，开发人员只需使用 JDWP 和 JVMTI 即可支持跨平台的远程调试，但是直接编写 JDWP 程序费时费力，而且效率不高。因此基于 Java 的 JDI 层的引入，简化了操作，提高了开发人员开发调试程序的效率。</p>
-</blockquote>
-<p>每个角色又对应着不同的技术模块支撑，分别为 JVMTI/JDWP/JDI。如下。</p>
-<p><img src="https://i.loli.net/2021/05/25/7FznIysLWZfEGrw.png" alt="image-20210525210301451"></p>
-<h4 id="（待补充）RSA原理及实战"><a href="#（待补充）RSA原理及实战" class="headerlink" title="（待补充）RSA原理及实战"></a>（待补充）RSA原理及实战</h4><h4 id="应用层加密如何进行加密传输"><a href="#应用层加密如何进行加密传输" class="headerlink" title="应用层加密如何进行加密传输"></a>应用层加密如何进行加密传输</h4><p>时间：4月</p>
-<p>背景：有时很好奇，应用层加密怎么进行加密传输。</p>
-<p>出现：</p>
-<p>前后端需要提前知道AES的密钥。</p>
-<p>前端：</p>
-<ol>
-<li>把数据用AES密钥加密，</li>
-<li>AES密钥用RSA密钥加密  </li>
-<li>传给后端AES加密的数据，RSA加密的AES密钥。</li>
-</ol>
-<p>后端：</p>
-<ol>
-<li>用RSA私钥解密AES密钥</li>
-<li>AES解密数据</li>
-</ol>
-<h3 id="预研"><a href="#预研" class="headerlink" title="预研"></a>预研</h3><h4 id="（待补充）sonar如何使用？"><a href="#（待补充）sonar如何使用？" class="headerlink" title="（待补充）sonar如何使用？"></a>（待补充）sonar如何使用？</h4><blockquote>
-<p><a target="_blank" rel="noopener" href="http://www.sonarqube.org/">SonarQube</a>® is an automatic code review tool to detect bugs, vulnerabilities, and code smells in your code. It can integrate with your existing workflow to enable continuous code inspection across your project branches and pull requests.</p>
-</blockquote>
-<p>官网简介：<a target="_blank" rel="noopener" href="https://docs.sonarqube.org/latest/">https://docs.sonarqube.org/latest/</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
+<script src="/libs/jquery.min.js"></script>
+
+            
+<script src="/js/search.js"></script>
+
+            
+                <form class="site-search-form">
+                    <i class="fa fa-search" id="search-logo"><input type="text" id="local-search-input" class="st-search-input" /></i>
+                </form>
+                <div id="local-search-result" class="local-search-result-cls"></div>
+            
+            <script type="text/javascript" id="local.search.active">
+                var inputArea       = document.querySelector("#local-search-input");
+                var getSearchFile = function(){
+                    var path = "/search.xml";
+                    searchFunc(path, 'local-search-input', 'local-search-result');
+                }
+                inputArea.onfocus = function(){ getSearchFile() }
+
+                var $resetButton = $("#search-form .fa-times");
+                var $resultArea = $("#local-search-result");
+
+                inputArea.oninput = function(){ $resetButton.show(); }
+                resetSearch = function(){
+                    $resultArea.html("");
+                    document.querySelector("#search-form").reset();
+                    $resetButton.hide();
+                    $(".no-result").hide();
+                }
+                inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
+                //No search result
+                $resultArea.bind("DOMNodeRemoved DOMNodeInserted", function(e) {
+                    if (!$(e.target).text()) {
+                        $(".no-result").show(100);
+                    } else {
+                        $(".no-result").hide();
+                    }
+                })
+            </script>
+
+    </ol>
+    <hr>
 </div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+<div class="hd">
+    
+    
         
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">posts</span>
+        
+            <div class="titlex">
+                <p><span class="jing"></span><span style="color: #6d9ee7;"> 公元</span> 
+                 2021年 🕛
+                </p>
+            </div>
+            
+        
+        <a class="flink" href="/2021/10/19/back/">
+            <div class="list">
+                <div class="postname">
+                    back
+                </div>
+                <div class="posttime">
+                    October 19th
+                </div>
+            </div>
         </a>
-      </div>
-  </nav>
+    
+        
+        
+        <a class="flink" href="/2021/10/19/hello-world/">
+            <div class="list">
+                <div class="postname">
+                    Hello World
+                </div>
+                <div class="posttime">
+                    October 19th
+                </div>
+            </div>
+        </a>
+    
+        
+        
+        <a class="flink" href="/2021/10/17/2021%E5%B9%B44%E6%9C%88%E6%80%BB%E7%BB%93/">
+            <div class="list">
+                <div class="postname">
+                    2021年4月总结
+                </div>
+                <div class="posttime">
+                    October 17th
+                </div>
+            </div>
+        </a>
+    
 </div>
 
+    <div class="footer" id="footer">
+    <p><h4>Copyright © 2020 | Author: 王邸 | Theme By <a class="theme-author" target="_blank" rel="noopener" href="https://github.com/Xunzhuo/hexo-theme-coder" style="font-size:14px; color: #969696">Coder</a></h4>
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <span id="busuanzi_container_site_pv">Page Views: <span id="busuanzi_value_site_pv"></span></span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv">Unique Visitors: <span id="busuanzi_value_site_uv"></span></span>
+    
+    <label class="el-switch el-switch-blue el-switch-sm" style="vertical-align: sub;">
+        <input type="checkbox" name="switch" id="update_style">
+        <span class="el-switch-style"></span>
+    </label>
 
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+    <!--         <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1278548644'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1278548644%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script> -->
+</p>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
 
-        
+<input type="hidden" id="web_style" value="black">
+<input type="hidden" id="valine_appid" value="NOsswOncKgc8HOxqo9oxIWlX-gzGzoHsz">
+<input type="hidden" id="valine_appKey" value="z1FihjWEbS8uIfUQdmCtK7zz">
 
-
-
-
+<script src="/libs/jquery.min.js"></script>
 
 
+<script src="/libs/highlight/highlight.pack.js"></script>
 
+<script src='//cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
 
-      </div>
-    </footer>
-  </div>
+<script src="/js/js.js"></script>
 
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
+<style type="text/css">
+.v * {
+color: #698fca;
+}
+.v .vlist .vcard .vhead .vsys {
+color: #3a3e4a;
+}
+.v .vlist .vcard .vh .vmeta .vat {
+color: #638fd5;
+}
+.v .vlist .vcard .vhead .vnick {
+color: #6ba1ff;
+}
+.v a {
+color: #8696b1;
+}
+.v .vlist .vcard .vhead .vnick:hover {
+color: #669bfc;
+}
+</style>
+    <script type="text/javascript" color="173,174,173" opacity='1' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 </body>
 </html>
